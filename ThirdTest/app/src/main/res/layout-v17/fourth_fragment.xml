@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/photo_41"
+        style="@style/OnePhoto"
+        android:layout_marginTop="8dp"
+        />
+    <TextView
+        android:id="@+id/text_41"
+        style="@style/OneStyle"
+        android:text="设置日期和时间"
+        />
+    <TextClock
+        android:id="@+id/time_41"
+        android:layout_height="45dp"
+        android:layout_width="900dp"
+        android:format24Hour="             使用24小时格式                 HH:mmaa"
+        android:format12Hour="             使用12小时格式                 hh:mmaa"
+        android:layout_below="@id/photo_41"
+        android:textSize="25dp"
+        android:focusable="true"
+        android:textColor="#fff"
+        android:paddingTop="5dp"
+        android:background="@drawable/course_list_selector1"
+        tools:targetApi="jelly_bean_mr1" />
+    <ImageView
+        android:id="@+id/photo_47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/checkbox_off"
+        android:layout_below="@id/photo_41"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="650dp"
+
+        />
+    <ImageView
+        android:id="@+id/photo_42"
+        style="@style/TwoPhoto"
+        android:layout_below="@id/time_41"
+        />
+    <TextClock
+        android:id="@+id/time_42"
+        android:layout_width="900dp"
+        android:layout_height="45dp"
+        android:paddingTop="5dp"
+        android:format24Hour="             选择日期格式                 yyyy-dd-MM"
+        android:layout_below="@id/photo_42"
+        android:textSize="25dp"
+        android:textColor="#fff"
+        android:focusable="true"
+        android:background="@drawable/course_list_selector1"
+        tools:targetApi="jelly_bean_mr1" />
+    <ImageView
+        android:id="@+id/photo_43"
+        style="@style/TwoPhoto"
+        android:layout_below="@id/time_42"
+        />
+    <ImageView
+        android:id="@+id/photo_44"
+        style="@style/OnePhoto"
+        android:layout_below="@+id/photo_43"
+        />
+    <TextView
+        android:id="@+id/text_42"
+        style="@style/OneStyle"
+        android:text="时间服务器设置"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/photo_43"
+        />
+    <TextView
+        android:id="@+id/text_43"
+        style="@style/FourStyle"
+        android:text="主时间同步服务器地址:"
+        android:paddingLeft="80dp"
+        android:layout_below="@id/photo_44"
+        />
+    <ImageView
+        android:id="@+id/photo_45"
+        style="@style/TwoPhoto"
+        android:layout_below="@id/text_43"
+        />
+    <TextView
+        android:id="@+id/text_44"
+        style="@style/FourStyle"
+        android:text="备时间同步服务器地址:"
+        android:paddingLeft="80dp"
+        android:layout_below="@id/photo_45"
+        />
+    <ImageView
+        android:id="@+id/photo_46"
+        style="@style/TwoPhoto"
+        android:layout_below="@id/text_44"
+        />
+</RelativeLayout>

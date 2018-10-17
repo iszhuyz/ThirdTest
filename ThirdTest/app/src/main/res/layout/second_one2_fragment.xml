@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/photo_2121"
+        style="@style/OnePhoto"
+        android:layout_marginTop="8dp"
+        />
+    <TextView
+        android:id="@+id/text_2121"
+        style="@style/OneStyle"
+        android:text="在线静态"
+        />
+
+    <TextView
+        android:id="@+id/text_2122"
+        style="@style/TwoStyle"
+        android:text="    IP地址:"
+        android:layout_below="@id/text_2121"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/edit_2121"
+        style="@style/edit"
+        android:layout_below="@id/text_2121"
+        android:layout_marginLeft="320dp"
+        android:nextFocusLeft="@+id/edit_2121"
+        android:nextFocusUp="@+id/edit_2121"
+        android:layout_marginTop="25dp"
+
+        />
+    <TextView
+        android:id="@+id/text_2123"
+        style="@style/TwoStyle"
+        android:text="子网掩码:"
+        android:layout_below="@id/text_2122"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/edit_2122"
+        style="@style/edit"
+        android:layout_below="@id/text_2122"
+        android:layout_marginLeft="320dp"
+        android:nextFocusLeft="@+id/edit_2122"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:id="@+id/text_2124"
+        style="@style/TwoStyle"
+        android:text="默认网关:"
+        android:layout_below="@id/text_2123"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/edit_2123"
+        style="@style/edit"
+        android:layout_below="@id/text_2123"
+        android:layout_marginLeft="320dp"
+        android:nextFocusLeft="@+id/edit_2123"
+        android:layout_marginTop="25dp"
+        />
+
+
+    <TextView
+        android:id="@+id/text_2125"
+        style="@style/TwoStyle"
+        android:text="主用DNS:"
+        android:layout_below="@id/text_2124"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/edit_2124"
+        style="@style/edit"
+        android:layout_below="@id/text_2124"
+        android:layout_marginLeft="320dp"
+        android:nextFocusLeft="@+id/edit_2124"
+        android:layout_marginTop="25dp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/text_2126"
+        style="@style/TwoStyle"
+        android:text="备用DNS:"
+        android:layout_below="@id/text_2125"
+        android:layout_marginLeft="199dp"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/edit_2125"
+        style="@style/edit"
+        android:layout_below="@id/text_2125"
+        android:layout_marginLeft="320dp"
+        android:nextFocusLeft="@+id/edit_2125"
+        android:layout_marginTop="25dp"
+        />
+
+    <Button
+        style="@style/Button"
+        android:id="@+id/button_2121"
+        android:text="确定"
+        android:layout_below="@+id/text_2126"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="220dp"
+        android:nextFocusLeft="@+id/button_2121"
+
+        >
+        <requestFocus/>
+    </Button>
+
+    <Button
+        style="@style/Button"
+        android:id="@+id/button_2122"
+        android:text="取消"
+        android:layout_below="@+id/text_2126"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="480dp"
+        />
+</RelativeLayout>

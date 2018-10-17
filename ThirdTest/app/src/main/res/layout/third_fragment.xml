@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/photo_31"
+        style="@style/OnePhoto"
+        android:layout_marginTop="8dp"
+        />
+    <TextView
+        android:id="@+id/text_31"
+        style="@style/OneStyle"
+        android:text="有线网络已连接：DHCP"
+        />
+    <TextView
+        android:id="@+id/text_32"
+        style="@style/TwoStyle"
+        android:text="IP地址:"
+        android:paddingLeft="28dp"
+        android:layout_below="@id/photo_31"
+        android:layout_marginLeft="200dp"
+        />
+    <ImageView
+        android:id="@+id/photo_32"
+        style="@style/TwoPhoto"
+        android:layout_below="@id/text_32"
+        />
+
+    <TextView
+        android:id="@+id/text_33"
+        style="@style/TwoStyle"
+        android:text="子网掩码:"
+        android:layout_below="@id/photo_32"
+        android:layout_marginLeft="200dp"
+        />
+    <ImageView
+        android:id="@+id/photo_34"
+        style="@style/TwoPhoto"
+        android:layout_below="@id/text_33"
+        />
+
+    <TextView
+        android:id="@+id/text_34"
+        style="@style/TwoStyle"
+        android:text="默认网关:"
+        android:layout_below="@id/photo_34"
+        android:layout_marginLeft="200dp"
+        />
+    <ImageView
+        android:id="@+id/photo_35"
+        style="@style/TwoPhoto"
+        android:layout_below="@id/text_34"
+        />
+
+    <TextView
+        android:id="@+id/text_35"
+        style="@style/TwoStyle"
+        android:text="主用DNS："
+        android:layout_below="@id/photo_35"
+        android:layout_marginLeft="200dp"
+        />
+    <EditText
+        android:id="@+id/edit_31"
+        style="@style/edit"
+        android:layout_below="@id/photo_35"
+        android:layout_marginLeft="320dp"
+        />
+    <ImageView
+        android:id="@+id/photo_36"
+        style="@style/TwoPhoto"
+        android:layout_below="@id/text_35"
+        />
+
+    <TextView
+        android:id="@+id/text_36"
+        style="@style/TwoStyle"
+        android:text="备用DNS："
+        android:layout_below="@id/photo_36"
+        android:layout_marginLeft="199dp"
+        />
+    <EditText
+        android:id="@+id/edit_32"
+        style="@style/edit"
+        android:layout_below="@id/photo_36"
+        android:layout_marginLeft="320dp"
+
+        />
+    <ImageView
+        android:id="@+id/photo_37"
+        style="@style/TwoPhoto"
+        android:layout_below="@id/text_36"
+        />
+    <Button
+        style="@style/Button"
+        android:id="@+id/button_31"
+        android:text="确定"
+        android:layout_below="@+id/photo_37"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="320dp"
+        />
+
+
+
+</RelativeLayout>

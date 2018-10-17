@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/photo_71"
+        style="@style/OnePhoto"
+        android:layout_marginTop="8dp"
+        />
+    <TextView
+        android:id="@+id/text_71"
+        style="@style/OneStyle"
+        android:text="高级设置"
+        />
+    <TextView
+        android:id="@+id/text_72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="密码："
+        android:layout_below="@id/text_71"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="150dp"
+        android:textColor="#fff"
+        />
+    <EditText
+        android:id="@+id/edit_71"
+        style="@style/Password"
+        android:layout_toRightOf="@id/text_72"
+        android:layout_marginTop="197dp">
+    </EditText>
+
+    <Button
+        android:id="@+id/button_71"
+        style="@style/Button"
+        android:text="确定"
+        android:layout_below="@+id/edit_71"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="300dp"
+        />
+
+
+</RelativeLayout>

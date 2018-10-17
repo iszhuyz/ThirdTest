@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/photo_211"
+        style="@style/OnePhoto"
+        android:layout_marginTop="8dp"
+        />
+    <TextView
+        android:id="@+id/text_211"
+        style="@style/OneStyle"
+        android:text="有线网络设置"
+        />
+    <RadioGroup
+        android:id="@+id/radiogroup_211"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/photo_211"
+        android:orientation="vertical"
+
+        >
+        <RadioButton
+            android:id="@+id/radiobutton_211"
+            android:layout_width="900dp"
+            android:layout_height="45dp"
+            android:button="@null"
+            android:drawableLeft="@android:drawable/btn_radio"
+            android:textSize="25dp"
+            android:background="@drawable/course_list_selector1"
+            android:text="   PPPoE"
+            android:paddingLeft="50dp"
+            android:layout_below="@+id/text_21"
+            android:nextFocusUp="@+id/radiobutton_211"
+            android:nextFocusLeft="@+id/radiobutton_211"/>
+        <requestFocus/>
+        <ImageView
+            android:id="@+id/photo_212"
+            style="@style/TwoPhoto"
+            android:layout_below="@id/radiobutton_211"
+
+            />
+        <RadioButton
+            android:id="@+id/radiobutton_212"
+            android:layout_width="900dp"
+            android:layout_height="45dp"
+            android:textSize="25dp"
+            android:paddingLeft="50dp"
+            android:button="@null"
+            android:drawableLeft="@android:drawable/btn_radio"
+            android:background="@drawable/course_list_selector1"
+            android:text="   DHCP"
+            android:nextFocusLeft="@+id/radiobutton_212"
+            />
+        <ImageView
+            android:id="@+id/photo_213"
+            style="@style/TwoPhoto"
+            android:layout_below="@id/radiobutton_212"
+            />
+        <RadioButton
+            android:id="@+id/radiobutton_213"
+            android:layout_width="900dp"
+            android:textSize="25dp"
+            android:paddingLeft="50dp"
+            android:layout_height="45dp"
+            android:text="   静态IP"
+            android:button="@null"
+            android:drawableLeft="@android:drawable/btn_radio"
+            android:background="@drawable/course_list_selector1"
+            android:nextFocusLeft="@+id/radiobutton_213"
+            />
+        <ImageView
+            android:id="@+id/photo_214"
+            style="@style/TwoPhoto"
+            android:layout_below="@id/radiobutton_213"
+            />
+
+    </RadioGroup>
+</RelativeLayout>

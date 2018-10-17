@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/photo_61"
+        style="@style/OnePhoto"
+        android:layout_marginTop="8dp"
+        />
+    <TextView
+        android:id="@+id/text_61"
+        style="@style/OneStyle"
+        android:text="存储信息"
+        />
+    <TextView
+        android:id="@+id/text_62"
+        style="@style/FourStyle"
+        android:paddingLeft="80dp"
+        android:text="总容量"
+        android:layout_below="@id/photo_61"
+    />
+    <ImageView
+        android:id="@+id/photo_62"
+        style="@style/TwoPhoto"
+        android:layout_below="@id/text_62"
+        />
+    <TextView
+        android:id="@+id/text_63"
+        style="@style/FourStyle"
+        android:text="可用空间"
+        android:paddingLeft="80dp"
+        android:layout_below="@id/photo_62"
+        />
+    <ImageView
+        android:id="@+id/photo_63"
+        style="@style/TwoPhoto"
+        android:layout_below="@id/text_63"
+        />
+    <TextView
+        android:id="@+id/text_64"
+        style="@style/ThreeStyle"
+        android:text="卸载外部存储设备"
+        android:layout_below="@id/photo_63"
+        android:paddingLeft="80dp"
+        />
+    <ImageView
+        android:id="@+id/photo_64"
+        style="@style/TwoPhoto"
+        android:layout_below="@id/text_64"
+        />
+</RelativeLayout>

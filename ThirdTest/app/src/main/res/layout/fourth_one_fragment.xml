@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/photo_411"
+        style="@style/OnePhoto"
+        android:layout_marginTop="8dp"
+        />
+    <TextView
+        android:id="@+id/text_411"
+        style="@style/OneStyle"
+        android:text="选择日期格式"
+        />
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/time_411"
+        style="@style/TwoPhoto"
+        android:layout_below="@id/text_411"
+        tools:targetApi="jelly_bean_mr1" />
+    <TextView
+        android:id="@+id/text_412"
+        android:layout_width="900dp"
+        android:layout_height="wrap_content"
+        android:text="                区域"
+        android:layout_below="@id/photo_412"
+        android:textSize="24dp"
+        android:focusable="true"
+        android:background="@drawable/course_list_selector1"
+        />
+    <requestFocus/>
+    <ImageView
+        android:id="@+id/photo_413"
+        style="@style/TwoPhoto"
+        android:layout_below="@id/text_412"
+        />
+
+    <TextView
+        android:id="@+id/text_413"
+        style="@style/TwoStyle"
+        android:text="09-20"
+        android:layout_below="@id/photo_413"
+        android:layout_marginLeft="200dp"
+        />
+    <ImageView
+        android:id="@+id/photo_414"
+        style="@style/TwoPhoto"
+        android:layout_below="@id/text_413"
+        />
+
+    <TextView
+        android:id="@+id/text_414"
+        style="@style/TwoStyle"
+        android:text="20-09"
+        android:layout_below="@id/photo_414"
+        android:layout_marginLeft="200dp"
+        />
+    <ImageView
+        android:id="@+id/photo_415"
+        style="@style/TwoPhoto"
+        android:layout_below="@id/text_414"
+        />
+
+    <TextView
+        android:id="@+id/text_415"
+        style="@style/TwoStyle"
+        android:text="2018-"
+        android:layout_below="@id/photo_415"
+        android:layout_marginLeft="200dp"
+        />
+    <ImageView
+        android:id="@+id/photo416"
+        style="@style/TwoPhoto"
+        android:layout_below="@id/text_415"
+        />
+</RelativeLayout>

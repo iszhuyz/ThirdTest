@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/photo_21"
+        style="@style/OnePhoto"
+        android:layout_marginTop="8dp"
+        />
+    <TextView
+        android:id="@+id/text_21"
+        style="@style/OneStyle"
+        android:text="网络设置"
+        />
+    <TextView
+        android:id="@+id/text_22"
+        style="@style/ThreeStyle"
+        android:text="有线网络设置                 设置和管理有线网络"
+        android:layout_below="@id/photo_21"
+        android:paddingLeft="80dp"
+        />
+
+    <ImageView
+        android:id="@+id/photo_22"
+        style="@style/TwoPhoto"
+        android:layout_below="@id/text_22"
+        />
+    <TextView
+        android:id="@+id/text_23"
+        style="@style/ThreeStyle"
+        android:text="设置蓝牙"
+        android:paddingLeft="80dp"
+        android:layout_below="@id/photo_22"
+        />
+
+    <ImageView
+        android:id="@+id/photo_23"
+        style="@style/TwoPhoto"
+        android:layout_below="@id/text_23"
+        />
+
+</RelativeLayout>

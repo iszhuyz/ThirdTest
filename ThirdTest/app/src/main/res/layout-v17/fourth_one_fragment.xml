@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/photo_411"
+        style="@style/OnePhoto"
+        android:layout_marginTop="8dp"
+        />
+    <TextView
+        android:id="@+id/text_411"
+        style="@style/OneStyle"
+        android:text="选择日期格式"
+        />
+    <TextClock
+        android:id="@+id/time_411"
+        android:layout_width="900dp"
+        android:layout_height="45dp"
+        android:format12Hour="             区域(yyyy-M-dd)"
+        android:format24Hour="             区域(yyyy-M-dd)"
+        android:layout_below="@id/photo_411"
+        android:textSize="25dp"
+        android:focusable="true"
+        android:textColor="#fff"
+        android:paddingTop="5dp"
+        android:background="@drawable/course_list_selector1"
+        android:nextFocusLeft="@+id/time_411"
+        android:nextFocusUp="@+id/time_411"
+        />
+    <requestFocus/>
+    <ImageView
+        android:id="@+id/photo_412"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/checkbox_off"
+        android:layout_below="@id/photo_411"
+        android:layout_marginLeft="700dp"
+        android:layout_marginTop="4dp"
+        />
+
+    <ImageView
+        android:id="@+id/photo_413"
+        style="@style/TwoPhoto"
+        android:layout_below="@id/time_411"
+        />
+
+    <TextClock
+        android:id="@+id/time_412"
+        android:layout_width="900dp"
+        android:layout_height="45dp"
+        android:format12Hour="             MM-dd-yyyy"
+        android:format24Hour="             MM-dd-yyyy"
+        android:layout_below="@id/photo_413"
+        android:textSize="25dp"
+        android:paddingTop="5dp"
+        android:focusable="true"
+        android:textColor="#fff"
+        android:background="@drawable/course_list_selector1"
+        android:nextFocusLeft="@+id/time_412"
+        />
+    <ImageView
+        android:id="@+id/photo_414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/checkbox_off"
+        android:layout_below="@id/photo_413"
+        android:layout_marginLeft="700dp"
+        android:layout_marginTop="4dp"
+        />
+    <ImageView
+        android:id="@+id/photo_415"
+        style="@style/TwoPhoto"
+        android:layout_below="@id/time_412"
+
+        />
+
+    <TextClock
+        android:id="@+id/time_413"
+        android:layout_width="900dp"
+        android:layout_height="45dp"
+        android:format12Hour="             dd-MM-yyyy"
+        android:format24Hour="             dd-MM-yyyy"
+        android:layout_below="@id/photo_415"
+        android:textSize="24dp"
+        android:paddingTop="5dp"
+        android:focusable="true"
+        android:textColor="#fff"
+        android:background="@drawable/course_list_selector1"
+        android:nextFocusLeft="@+id/time_413"
+        />
+    <ImageView
+        android:id="@+id/photo_416"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/checkbox_off"
+        android:layout_below="@id/photo_414"
+        android:layout_marginLeft="700dp"
+        android:layout_marginTop="4dp"
+        />
+    <ImageView
+        android:id="@+id/photo_417"
+        style="@style/TwoPhoto"
+        android:layout_below="@id/time_413"
+
+        />
+
+    <TextClock
+        android:id="@+id/time_414"
+        android:layout_width="900dp"
+        android:layout_height="45dp"
+        android:format12Hour="             yyyy-dd-MM"
+        android:format24Hour="             yyyy-dd-MM"
+        android:layout_below="@id/photo_417"
+        android:textSize="25dp"
+        android:paddingTop="5dp"
+        android:focusable="true"
+        android:textColor="#fff"
+        android:background="@drawable/course_list_selector1"
+        android:nextFocusLeft="@+id/time_414"
+        />
+    <ImageView
+        android:id="@+id/photo_418"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/checkbox_off"
+        android:layout_below="@id/photo_417"
+        android:layout_marginLeft="700dp"
+        android:layout_marginTop="4dp"
+        />
+    <ImageView
+        android:id="@+id/photo419"
+        style="@style/TwoPhoto"
+        android:layout_below="@id/time_414"
+        />
+</RelativeLayout>

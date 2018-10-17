@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/photo_51"
+        style="@style/OnePhoto"
+        android:layout_marginTop="8dp"
+        />
+    <TextView
+        android:id="@+id/text_51"
+        style="@style/OneStyle"
+        android:text="设置分辨率"
+        />
+    <TextView
+        android:id="@+id/text_52"
+        style="@style/ThreeStyle"
+        android:text="分辨率"
+        android:paddingLeft="80dp"
+        android:layout_below="@id/photo_51"
+        />
+    <ImageView
+        android:id="@+id/photo_52"
+        style="@style/OnePhoto"
+        android:layout_below="@id/text_52"
+        />
+    <TextView
+        android:id="@+id/text_53"
+        style="@style/OneStyle"
+        android:text="改变图片位置"
+        android:layout_marginTop="11dp"
+        android:layout_below="@id/text_52"
+        />
+    <TextView
+        android:id="@+id/text_54"
+        style="@style/ThreeStyle"
+        android:text="调整画面输出区域"
+        android:paddingLeft="80dp"
+        android:layout_below="@id/photo_52"
+        />
+</RelativeLayout>

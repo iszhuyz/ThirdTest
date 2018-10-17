@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/photo_2111"
+        style="@style/OnePhoto"
+        android:layout_marginTop="8dp"
+        />
+    <TextView
+        android:id="@+id/text_2111"
+        style="@style/OneStyle"
+        android:text="有线PPPoE"
+        />
+    <TextView
+        android:id="@+id/text_2112"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="用户名 ："
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="150dp"
+        android:textColor="#fff">
+        </TextView>
+
+    <EditText
+        style="@style/User"
+        android:id="@+id/edit_2111"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/text_2112"
+        android:layout_marginTop="105dp"
+        >
+    </EditText>
+    <TextView
+        android:id="@+id/text_2113"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="密    码 ："
+        android:layout_below="@id/text_2112"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="152dp"
+        android:textColor="#fff"
+        />
+    <EditText
+        style="@style/Password"
+        android:id="@+id/edit_2112"
+        android:layout_toRightOf="@id/text_2113"
+        android:layout_below="@id/text_2112"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="21dp"
+        android:nextFocusLeft="@+id/edit_2112"
+        >
+
+    </EditText>
+
+    <Button
+        style="@style/Button"
+        android:id="@+id/button_2111"
+        android:text="确定"
+        android:layout_below="@+id/edit_2112"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="180dp"
+        android:nextFocusLeft="@+id/button_2111">
+        <requestFocus/>
+</Button>
+    <Button
+        style="@style/Button"
+        android:id="@+id/button_2112"
+        android:text="取消"
+        android:layout_below="@+id/edit_2112"
+        android:layout_toRightOf="@+id/button_2111"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="55dp"
+        />
+
+
+</RelativeLayout>

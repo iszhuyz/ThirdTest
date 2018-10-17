@@ -1,0 +1,118 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    
+    //关于本机样式/通用
+    <style name="OneStyle" >
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginLeft">32dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    //一级选项样式/不可选/关于本机页面
+    <style name="TwoStyle">
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_width">900dp</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:layout_marginLeft">170dp</item>
+        <item name="android:textColor">#FFFF</item>
+    </style>
+    //一级选项样式/可选
+    <style name="ThreeStyle">
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_width">900dp</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:textColor">#FFFF</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">@drawable/course_list_selector1</item>
+    </style>
+    //一级选项样式/不可选
+    <style name="FourStyle">
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_width">900dp</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:textColor">#FFFF</item>
+    </style>
+    /关于本机背景图样式
+    <style name="OnePhoto">
+        <item name="android:layout_width">900dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/background_title</item>
+    </style>
+    //下划线样式
+    <style name="TwoPhoto">
+        <item name="android:layout_width">900dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/background_divider</item>
+    </style>
+    //通用按钮
+    <style name="Button">
+        <item name="android:layout_width">188dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:background">@drawable/course_list_selector3</item>
+    </style>
+    //输入用户
+    <style name="User">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">22dp</item>
+        <item name="android:paddingLeft">7dp</item>
+        <item name="android:background">@drawable/course_list_selector2</item>
+    </style>
+    //输入密码
+    <style name="Password">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">22dp</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:paddingLeft">7dp</item>
+        <item name="android:background">@drawable/course_list_selector2</item>
+    </style>
+    //Edit显示
+    <style name="edit">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:paddingLeft">23dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:selectAllOnFocus">true</item>
+    </style>
+    //dialog去阴影
+    <style name="dialogNoBg" >
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    //活动弹窗
+        <style name="dialogStyle">
+            <item name="android:windowMinWidthMajor">300dp</item>
+            <item name="android:windowBackground">@android:color/transparent</item>
+            <item name="android:windowFrame">@null</item>
+            <item name="android:windowNoTitle">true</item>
+            <item name="android:windowIsFloating">true</item>
+            <item name="android:windowIsTranslucent">true</item>
+            <item name="android:windowContentOverlay">@null</item>
+            <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+            <item name="android:backgroundDimEnabled">true</item>
+        </style>
+
+
+
+</resources>
